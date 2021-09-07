@@ -1,0 +1,28 @@
+
+
+
+
+…or create a new repository on the command line
+
+echo "# Savez-WordPress-Project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/sohelrr59/Savez-WordPress-Project.git
+git push -u origin master
+
+
+
+                
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/sohelrr59/Savez-WordPress-Project.git
+git push -u origin master
+
+Problem Fixed
+----------------
+If show warning: LF will be replaced by CRLF
+solve:  You can turn this warning off by typing the following in the git command line:
+
+git config core.autocrlf true
